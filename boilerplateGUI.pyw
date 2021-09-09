@@ -11,13 +11,13 @@ import tkinter as tk
 
 # gui screen start position assumes monitors are setup in parallel(left to right) and the primary monitor is on the left
 # gui screen start position(1 = middle of first screen, 4 = middle of second screen)
-gui_start_position = 4
+gui_start_position = 1
 
 # this truncates n number of lines from the output when copying to the clipboard(does not effect pdf output)
 truncate_lines_before = 5
 truncate_lines_after = 6
 
-converted_file_base_name = "HSCoverLetter_"
+converted_file_base_name = "HarrisonStewardCoverLetter_"
 
 docx_template_path = "C:\\Users\\Harrison\\Documents\\HarrisonStewardCoverLetter_Template.docx"
 libre_office_swriter_path = "C:\\Program Files\\LibreOffice\\program\\swriter.exe"
@@ -116,7 +116,7 @@ def convert_call_back(job_title, company_name, city_state, is_remote, is_copy_tx
 
         # write the data back to the text file
         with open('output.txt', 'w') as fout:
-            fout.writelines(data[5:-6])
+            fout.writelines(data[truncate_lines_before:-truncate_lines_after])
 
         # copy text file to clipboard
         os.system("clip < output.txt ")
