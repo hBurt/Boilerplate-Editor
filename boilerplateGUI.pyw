@@ -19,7 +19,7 @@ truncate_lines_after = 6
 
 converted_file_base_name = "HarrisonStewardCoverLetter_"
 
-docx_template_path = "C:\\Users\\Harrison\\Documents\\HarrisonStewardCoverLetter_Template.docx"
+docx_template_path = "CoverLetter_Template.docx"
 libre_office_swriter_path = "C:\\Program Files\\LibreOffice\\program\\swriter.exe"
 pdf_output_directory = "C:\\Users\\Harrison\\Documents\\"
 
