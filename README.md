@@ -18,7 +18,9 @@ Optional variables to take into consideration:
 * truncate_lines_after - remove n number of lines on bottom of txt output
 
 Included in the project is a .bat file which will run the GUI.
-To use this bat file you need to edit it to account for the installed location of python on your machine and the location of the boilerplateGUI.pyw file
+To use this bat file you need to edit it to account for the installed location of python on your machine and the location of the boilerplateGUI.pyw file. 
+
+**You must leave this bat file in the same folder as the boilerplateGUI.pyw file.** If you want to have this bat file elsewhere, right click on it and create a shortcut. From there you can then place that shortcut anywhere on your computer.
 
 ## Media
 ![Editor](https://i.imgur.com/F6d0kcE.png)
