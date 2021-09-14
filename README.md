@@ -22,8 +22,11 @@ To use this bat file you need to edit it to account for the installed location o
 
 **You must leave this bat file in the same folder as the boilerplateGUI.pyw file.** If you want to have this bat file elsewhere, right click on it and create a shortcut. From there you can then place that shortcut anywhere on your computer.
 
+## Notes
+If you remove the word '_Template' from the cover letter .docx file, it will get deleted when clicking 'Delete excess entries' from the menu bar.
+
 ## Media
-![Editor](https://i.imgur.com/F6d0kcE.png)
+![Editor](https://i.imgur.com/fxTOgic.png)
 
 
 
